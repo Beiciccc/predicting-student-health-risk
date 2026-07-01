@@ -6,3 +6,4 @@ submitted_at_utc,submission_ref,name,public_score,local_cv,beta,method,notes
 2026-07-01 04:10:46,54220347,s005_lgbm_beta102,0.94939,0.949721,1.0200,"LightGBM, prior beta 1.02",Single-model LGBM check; below XGB
 2026-07-01 04:12:02,54220364,s006_xgb_te_beta1085,0.94998,0.949761,1.0850,"XGBoost target encoding, prior beta 1.085",Fine beta check; below beta 1.08
 2026-07-01 04:13:12,54220393,s007_blend_xgb80_lgbm20,0.94989,0.949913,1.0200,XGBoost/LightGBM blend 0.80/0.20,Blend check; below best single XGB
+2026-07-01 04:14:18,54220424,s008_xgb_te_beta1075,0.94991,0.949766,1.0750,"XGBoost target encoding, prior beta 1.075",Fine beta check; below beta 1.08
