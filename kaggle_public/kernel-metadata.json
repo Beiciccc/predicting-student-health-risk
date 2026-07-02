@@ -1,0 +1,17 @@
+{
+  "id": "beicicc/student-health-risk-public-vote",
+  "title": "Student Health Risk Public Vote",
+  "code_file": "student-health-risk-public-vote.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "dataset_sources": [
+    "vad13irt/public-notebooks-submissions"
+  ],
+  "competition_sources": [
+    "playground-series-s6e7"
+  ]
+}

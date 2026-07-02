@@ -47,3 +47,9 @@ python scripts/make_submission.py --runs runs/xgb_te_seed42_f5 --name xgb_te_see
 ## Results
 
 Experiment outcomes are tracked in [reports/results_summary.md](reports/results_summary.md).
+
+## Public Code
+
+Kaggle Code version: https://www.kaggle.com/code/beicicc/student-health-risk-public-vote
+
+The Kaggle script source is stored in [kaggle_public/student-health-risk-public-vote.py](kaggle_public/student-health-risk-public-vote.py).
