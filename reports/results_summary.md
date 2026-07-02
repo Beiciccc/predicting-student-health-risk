@@ -16,3 +16,4 @@ Balanced accuracy is the competition metric. Local CV is computed from out-of-fo
 | 10 | 2026-07-01 04:16:35 | 54220481 | s010_xgb_te_beta1081 | 0.95001 | 0.949745 | 1.0810 | XGBoost target encoding, prior beta 1.081 | Near-best micro perturbation; tied best public score |
 | 11 | 2026-07-02 03:06:57 | 54251011 | s011_vote_public_0_4 | 0.95025 |  |  | Five-file hard vote | Public vote baseline |
 | 12 | 2026-07-02 03:10:34 | 54251097 | s012_vote_public_0_8 | 0.95034 |  |  | Nine-file hard vote | Full public vote set |
+| 13 | 2026-07-02 03:13:29 | 54251168 | s013_vote_public_no7 | 0.95024 |  |  | Eight-file hard vote | Leave-one-out vote check |
