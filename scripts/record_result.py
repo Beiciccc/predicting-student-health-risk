@@ -73,13 +73,24 @@ def main() -> None:
     args = parser.parse_args()
 
     candidate = json.loads(Path(args.candidate_json).read_text())
+    local_cv = candidate.get("oof_balanced_accuracy", "")
+    if local_cv in ("", None):
+        local_cv_text = ""
+    else:
+        local_cv_text = f"{float(local_cv):.6f}"
+    beta = candidate.get("beta", "")
+    if beta in ("", None):
+        beta_text = ""
+    else:
+        beta_text = f"{float(beta):.4f}"
+
     row = {
         "submitted_at_utc": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S"),
         "submission_ref": args.submission_ref,
         "name": candidate.get("name", ""),
         "public_score": args.public_score,
-        "local_cv": f"{float(candidate.get('oof_balanced_accuracy', 0.0)):.6f}",
-        "beta": f"{float(candidate.get('beta', 0.0)):.4f}",
+        "local_cv": local_cv_text,
+        "beta": beta_text,
         "method": args.method,
         "notes": args.notes,
     }
