@@ -32,3 +32,4 @@ Balanced accuracy is the competition metric. Local CV is computed from out-of-fo
 | 26 | 2026-07-03 09:00:56 | 54292674 | s025_public_95070 | 0.95070 |  |  | Public score-named submission | Public 0.95070 file |
 | 27 | 2026-07-03 09:03:23 | 54292732 | s026_anhad_single_95066 | 0.95066 |  |  | Public score-named submission | Anhad 0.95066 file |
 | 28 | 2026-07-03 09:05:51 | 54292789 | s027_anhad_single_95053 | 0.95053 |  |  | Public score-named submission | Anhad 0.95053 file |
+| 29 | 2026-07-03 09:08:11 | 54292840 | s028_anhad_single_95052 | 0.95024 |  |  | Public score-named submission | Anhad 0.95052 file; observed public score lower |
