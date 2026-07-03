@@ -9,7 +9,7 @@
   "enable_tpu": false,
   "enable_internet": false,
   "dataset_sources": [
-    "anhadmahajan06/predicting-student-health-risk-submissions"
+    "vad13irt/public-notebooks-submissions"
   ],
   "kernel_sources": [],
   "competition_sources": [
