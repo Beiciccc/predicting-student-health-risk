@@ -12,7 +12,7 @@
     "anhadmahajan06/predicting-student-health-risk-submissions"
   ],
   "kernel_sources": [
-    "anhadmahajan06/ps-s6e7-autonomous-ensemble"
+    "anhadmahajan06/confidence-weighted-ensemble-with-score-0-95094"
   ],
   "competition_sources": [
     "playground-series-s6e7"
