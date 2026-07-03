@@ -10,8 +10,8 @@ LABELS = {"at-risk", "fit", "unhealthy"}
 
 def find_source_submission() -> Path:
     exact_candidates = [
-        Path("/kaggle/input/ps-s6e7-0-95095-hill-climbing-meta-modeling/submission.csv"),
-        Path("external/anhad-hill-output/submission.csv"),
+        Path("/kaggle/input/ps-s6e7-autonomous-ensemble/submission.csv"),
+        Path("external/anhad-auto-output/submission.csv"),
     ]
     for path in exact_candidates:
         if path.exists():
@@ -24,7 +24,7 @@ def find_source_submission() -> Path:
             continue
         for path in root.rglob("submission.csv"):
             text = str(path).lower()
-            if "95095" in text or "hill" in text:
+            if "autonomous" in text:
                 matches.append(path)
     if not matches:
         raise FileNotFoundError("source submission.csv was not found")

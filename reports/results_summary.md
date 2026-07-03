@@ -25,3 +25,4 @@ Balanced accuracy is the competition metric. Local CV is computed from out-of-fo
 | 19 | 2026-07-02 03:26:07 | 54251505 | s018_vote_public_no4 | 0.94992 |  |  | Eight-file hard vote | Same no4 vote file |
 | 20 | 2026-07-02 03:27:57 | 54251545 | s019_vote_public_no5 | 0.95017 |  |  | Eight-file hard vote | Leave-one-out vote check |
 | 21 | 2026-07-03 08:39:25 | 54292076 | s020_anhad_hill_meta | 0.95095 |  |  | Public hill meta ensemble | Score-named submission ensemble |
+| 22 | 2026-07-03 08:47:02 | 54292311 | s021_anhad_autonomous | 0.95081 |  |  | Public autonomous ensemble | Score-named submission ensemble variant |
