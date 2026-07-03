@@ -11,9 +11,7 @@
   "dataset_sources": [
     "anhadmahajan06/predicting-student-health-risk-submissions"
   ],
-  "kernel_sources": [
-    "anhadmahajan06/confidence-weighted-ensemble-with-score-0-95094"
-  ],
+  "kernel_sources": [],
   "competition_sources": [
     "playground-series-s6e7"
   ]
