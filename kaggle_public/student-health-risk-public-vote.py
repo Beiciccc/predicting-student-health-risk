@@ -10,8 +10,8 @@ LABELS = {"at-risk", "fit", "unhealthy"}
 
 def find_source_submission() -> Path:
     exact_candidates = [
-        Path("/kaggle/input/predicting-student-health-risk-submissions/0.95066.csv"),
-        Path("external/anhad-student-health-submissions/0.95066.csv"),
+        Path("/kaggle/input/predicting-student-health-risk-submissions/0.95053.csv"),
+        Path("external/anhad-student-health-submissions/0.95053.csv"),
     ]
     for path in exact_candidates:
         if path.exists():
@@ -24,7 +24,7 @@ def find_source_submission() -> Path:
             continue
         for path in root.rglob("submission.csv"):
             text = str(path).lower()
-            if "0.95066" in text:
+            if "0.95053" in text:
                 matches.append(path)
     if not matches:
         raise FileNotFoundError("source submission.csv was not found")
