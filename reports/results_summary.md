@@ -41,3 +41,4 @@ Balanced accuracy is the competition metric. Local CV is computed from out-of-fo
 | 35 | 2026-07-04 04:09:16 | 54317670 | s063_flexon_external_lb_logit | 0.95088 |  |  | Public logit multiplier blend | Flexon external LB logit multiplier output |
 | 36 | 2026-07-04 04:10:44 | 54317711 | s064_biohack_fusion | 0.95058 |  |  | Public fusion output | Biohack public fusion submission |
 | 37 | 2026-07-04 04:13:38 | 54317778 | s070_vote_danushx3_s020_s022_s023_flexonlogit | 0.95104 |  |  | Danush-dominant hard vote | Danush x3 plus hill, confidence, 0.95086, and Flexon logit output |
+| 38 | 2026-07-04 04:16:30 | 54317852 | s073_vote_danushx4_top3_flexon_s024 | 0.95104 |  |  | Danush-dominant hard vote | Danush x4 plus hill, confidence, 0.95086, Flexon logit, and 0.95075 |
