@@ -8,13 +8,9 @@
   "enable_gpu": false,
   "enable_tpu": false,
   "enable_internet": false,
-  "dataset_sources": [
-    "anhadmahajan06/predicting-student-health-risk-submissions"
-  ],
+  "dataset_sources": [],
   "kernel_sources": [
-    "anhadmahajan06/ps-s6e7-0-95095-hill-climbing-meta-modeling",
-    "anhadmahajan06/confidence-weighted-ensemble-with-score-0-95094",
-    "anhadmahajan06/ps-s6e7-autonomous-ensemble"
+    "danushkumarv/ps-s6e7-cross-family-ensemble-calibration"
   ],
   "competition_sources": [
     "playground-series-s6e7"

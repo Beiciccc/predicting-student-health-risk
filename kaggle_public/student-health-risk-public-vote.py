@@ -11,25 +11,9 @@ LABEL_ORDER = {"at-risk": 0, "fit": 1, "unhealthy": 2}
 
 SOURCE_CANDIDATES = [
     [
-        Path("/kaggle/input/ps-s6e7-0-95095-hill-climbing-meta-modeling/submission.csv"),
-        Path("external/anhad-hill-output/submission.csv"),
-    ],
-    [
-        Path("/kaggle/input/confidence-weighted-ensemble-with-score-0-95094/submission.csv"),
-        Path("external/anhad-confidence-output/submission.csv"),
-    ],
-    [
-        Path("/kaggle/input/predicting-student-health-risk-submissions/0.95086.csv"),
-        Path("external/anhad-student-health-submissions/0.95086.csv"),
-    ],
-    [
-        Path("/kaggle/input/ps-s6e7-autonomous-ensemble/submission.csv"),
-        Path("external/anhad-auto-output/submission.csv"),
-    ],
-    [
-        Path("/kaggle/input/predicting-student-health-risk-submissions/0.95075.csv"),
-        Path("external/anhad-student-health-submissions/0.95075.csv"),
-    ],
+        Path('/kaggle/input/ps-s6e7-cross-family-ensemble-calibration/submission.csv'),
+        Path('external/2026-07-04-public-outputs/danush_95101/submission.csv'),
+    ]
 ]
 
 
