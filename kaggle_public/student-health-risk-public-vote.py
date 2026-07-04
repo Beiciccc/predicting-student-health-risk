@@ -22,6 +22,14 @@ SOURCE_CANDIDATES = [
         Path("/kaggle/input/predicting-student-health-risk-submissions/0.95086.csv"),
         Path("external/anhad-student-health-submissions/0.95086.csv"),
     ],
+    [
+        Path("/kaggle/input/ps-s6e7-autonomous-ensemble/submission.csv"),
+        Path("external/anhad-auto-output/submission.csv"),
+    ],
+    [
+        Path("/kaggle/input/predicting-student-health-risk-submissions/0.95075.csv"),
+        Path("external/anhad-student-health-submissions/0.95075.csv"),
+    ],
 ]
 
 
