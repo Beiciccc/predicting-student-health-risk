@@ -34,3 +34,4 @@ submitted_at_utc,submission_ref,name,public_score,local_cv,beta,method,notes
 2026-07-04 04:02:23,54317488,s055_danush_95101,0.95101,,,Public cross-family ensemble,Danush public output; visible score claim confirmed
 2026-07-04 04:04:09,54317534,s056_vote_danush_s020_s022,0.95095,,,Three-source hard vote,"Danush, hill meta, and confidence public outputs"
 2026-07-04 04:09:16,54317670,s063_flexon_external_lb_logit,0.95088,,,Public logit multiplier blend,Flexon external LB logit multiplier output
+2026-07-04 04:10:44,54317711,s064_biohack_fusion,0.95058,,,Public fusion output,Biohack public fusion submission

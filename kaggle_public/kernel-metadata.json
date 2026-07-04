@@ -10,7 +10,7 @@
   "enable_internet": false,
   "dataset_sources": [],
   "kernel_sources": [
-    "flexonafft/health-field-trials-pipeline-0-95"
+    "biohack44/predict-health-student-fusion"
   ],
   "competition_sources": [
     "playground-series-s6e7"

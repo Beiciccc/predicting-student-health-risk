@@ -11,8 +11,8 @@ LABEL_ORDER = {"at-risk": 0, "fit": 1, "unhealthy": 2}
 
 SOURCE_CANDIDATES = [
     [
-        Path('/kaggle/input/health-field-trials-pipeline-0-95/blended/external_lb_logit_multiplier_blend.csv'),
-        Path('external/2026-07-04-public-outputs/flexon_field_trials/blended/external_lb_logit_multiplier_blend.csv'),
+        Path('/kaggle/input/predict-health-student-fusion/submission.csv'),
+        Path('external/2026-07-04-public-outputs/biohack_fusion/submission.csv'),
     ]
 ]
 
