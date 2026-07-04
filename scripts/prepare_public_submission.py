@@ -88,12 +88,47 @@ SOURCE_MAP = {
         ],
         "kernel": "masayakawamata/s6e7-logreg-stacker-cv-0-95052",
     },
-    "submission.csv": {
+    "danush_95101_submission.csv": {
         "paths": [
             "/kaggle/input/ps-s6e7-cross-family-ensemble-calibration/submission.csv",
             "external/2026-07-04-public-outputs/danush_95101/submission.csv",
         ],
         "kernel": "danushkumarv/ps-s6e7-cross-family-ensemble-calibration",
+    },
+    "biohack_fusion_submission.csv": {
+        "paths": [
+            "/kaggle/input/predict-health-student-fusion/submission.csv",
+            "external/2026-07-04-public-outputs/biohack_fusion/submission.csv",
+        ],
+        "kernel": "biohack44/predict-health-student-fusion",
+    },
+    "ravi_stacker_submission.csv": {
+        "paths": [
+            "/kaggle/input/playgrounds6e7-stacker-v1/submission.csv",
+            "external/2026-07-04-public-outputs/ravi_stacker/submission.csv",
+        ],
+        "kernel": "ravi20076/playgrounds6e7-stacker-v1",
+    },
+    "flexon_submission.csv": {
+        "paths": [
+            "/kaggle/input/health-field-trials-pipeline-0-95/submission.csv",
+            "external/2026-07-04-public-outputs/flexon_field_trials/submission.csv",
+        ],
+        "kernel": "flexonafft/health-field-trials-pipeline-0-95",
+    },
+    "external_lb_logit_multiplier_blend.csv": {
+        "paths": [
+            "/kaggle/input/health-field-trials-pipeline-0-95/blended/external_lb_logit_multiplier_blend.csv",
+            "external/2026-07-04-public-outputs/flexon_field_trials/blended/external_lb_logit_multiplier_blend.csv",
+        ],
+        "kernel": "flexonafft/health-field-trials-pipeline-0-95",
+    },
+    "external_hygiene_weighted_vote.csv": {
+        "paths": [
+            "/kaggle/input/health-field-trials-pipeline-0-95/blended/external_hygiene_weighted_vote.csv",
+            "external/2026-07-04-public-outputs/flexon_field_trials/blended/external_hygiene_weighted_vote.csv",
+        ],
+        "kernel": "flexonafft/health-field-trials-pipeline-0-95",
     },
 }
 
@@ -110,9 +145,16 @@ def unique(items: list[str]) -> list[str]:
 
 def source_entry(raw_path: str) -> dict[str, object]:
     path = Path(raw_path)
-    key = path.name
-    if key == "submission.csv" and "danush_95101" not in raw_path:
-        raise KeyError(f"ambiguous source file: {raw_path}")
+    if "danush_95101/submission.csv" in raw_path:
+        key = "danush_95101_submission.csv"
+    elif "biohack_fusion/submission.csv" in raw_path:
+        key = "biohack_fusion_submission.csv"
+    elif "ravi_stacker/submission.csv" in raw_path:
+        key = "ravi_stacker_submission.csv"
+    elif "flexon_field_trials/submission.csv" in raw_path:
+        key = "flexon_submission.csv"
+    else:
+        key = path.name
     if key not in SOURCE_MAP:
         raise KeyError(f"no public source mapping for {raw_path}")
     entry = dict(SOURCE_MAP[key])

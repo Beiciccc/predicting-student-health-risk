@@ -38,3 +38,4 @@ Balanced accuracy is the competition metric. Local CV is computed from out-of-fo
 | 32 | 2026-07-04 03:55:32 | 54317335 | s036_vote_top5_public | 0.95096 |  |  | Five-source hard vote | Hill, confidence, 0.95086, autonomous, and 0.95075 public files |
 | 33 | 2026-07-04 04:02:23 | 54317488 | s055_danush_95101 | 0.95101 |  |  | Public cross-family ensemble | Danush public output; visible score claim confirmed |
 | 34 | 2026-07-04 04:04:09 | 54317534 | s056_vote_danush_s020_s022 | 0.95095 |  |  | Three-source hard vote | Danush, hill meta, and confidence public outputs |
+| 35 | 2026-07-04 04:09:16 | 54317670 | s063_flexon_external_lb_logit | 0.95088 |  |  | Public logit multiplier blend | Flexon external LB logit multiplier output |
