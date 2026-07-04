@@ -7,29 +7,29 @@ import pandas as pd
 TARGET = "health_condition"
 ID_COL = "id"
 LABEL_ORDER = {"at-risk": 0, "fit": 1, "unhealthy": 2}
-EXCLUDED = {"submission_1.csv", "submission_8.csv"}
 
 
-def find_public_submission_files() -> list[Path]:
-    roots = [
-        Path("/kaggle/input/public-notebooks-submissions"),
-        Path("external/public-notebooks-submissions"),
-    ]
-    files: list[Path] = []
-    for root in roots:
-        if root.exists():
-            files.extend(sorted(path for path in root.glob("submission_*.csv") if path.name not in EXCLUDED))
-    if not files:
-        files.extend(
-            sorted(
-                path
-                for path in Path("/kaggle/input").glob("**/submission_*.csv")
-                if path.name not in EXCLUDED
-            )
-        )
-    if len(files) != 7:
-        raise FileNotFoundError(f"expected 7 public submission files, found {len(files)}")
-    return files
+SOURCE_CANDIDATES = [
+    [
+        Path("/kaggle/input/ps-s6e7-0-95095-hill-climbing-meta-modeling/submission.csv"),
+        Path("external/anhad-hill-output/submission.csv"),
+    ],
+    [
+        Path("/kaggle/input/confidence-weighted-ensemble-with-score-0-95094/submission.csv"),
+        Path("external/anhad-confidence-output/submission.csv"),
+    ],
+    [
+        Path("/kaggle/input/predicting-student-health-risk-submissions/0.95086.csv"),
+        Path("external/anhad-student-health-submissions/0.95086.csv"),
+    ],
+]
+
+
+def resolve_source(candidates: list[Path]) -> Path:
+    for path in candidates:
+        if path.exists():
+            return path
+    raise FileNotFoundError(f"none of these source files were found: {[str(path) for path in candidates]}")
 
 
 def choose_label(labels: list[str]) -> str:
@@ -38,7 +38,7 @@ def choose_label(labels: list[str]) -> str:
 
 
 def main() -> None:
-    files = find_public_submission_files()
+    files = [resolve_source(candidates) for candidates in SOURCE_CANDIDATES]
     frames = [pd.read_csv(path) for path in files]
     ids = frames[0][ID_COL]
     for path, frame in zip(files, frames, strict=True):
@@ -57,7 +57,7 @@ def main() -> None:
 
     print("Used files:")
     for path in files:
-        print(f"- {path.name}")
+        print(f"- {path}")
     print(submission[TARGET].value_counts().sort_index())
 
 
