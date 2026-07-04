@@ -46,9 +46,9 @@ SOURCE_CANDIDATES = [
         Path('external/2026-07-04-public-outputs/flexon_field_trials/blended/external_lb_logit_multiplier_blend.csv'),
     ],
     [
-        Path('/kaggle/input/ps-s6e7-autonomous-ensemble/submission.csv'),
-        Path('external/anhad-auto-output/submission.csv'),
-        Path('submissions/s021_anhad_autonomous.csv'),
+        Path('/kaggle/input/pss6e7-stacker/sub_catboost_tuned_0.95009.csv'),
+        Path('external/jul4-public-outputs/baseer_stacker/sub_catboost_tuned_0.95009.csv'),
+        Path('submissions/s032_baseer_catboost_tuned.csv'),
     ]
 ]
 
