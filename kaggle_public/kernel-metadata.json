@@ -8,9 +8,14 @@
   "enable_gpu": false,
   "enable_tpu": false,
   "enable_internet": false,
-  "dataset_sources": [],
+  "dataset_sources": [
+    "anhadmahajan06/predicting-student-health-risk-submissions"
+  ],
   "kernel_sources": [
-    "biohack44/predict-health-student-fusion"
+    "danushkumarv/ps-s6e7-cross-family-ensemble-calibration",
+    "anhadmahajan06/ps-s6e7-0-95095-hill-climbing-meta-modeling",
+    "anhadmahajan06/confidence-weighted-ensemble-with-score-0-95094",
+    "flexonafft/health-field-trials-pipeline-0-95"
   ],
   "competition_sources": [
     "playground-series-s6e7"

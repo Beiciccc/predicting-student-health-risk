@@ -11,8 +11,35 @@ LABEL_ORDER = {"at-risk": 0, "fit": 1, "unhealthy": 2}
 
 SOURCE_CANDIDATES = [
     [
-        Path('/kaggle/input/predict-health-student-fusion/submission.csv'),
-        Path('external/2026-07-04-public-outputs/biohack_fusion/submission.csv'),
+        Path('/kaggle/input/ps-s6e7-cross-family-ensemble-calibration/submission.csv'),
+        Path('external/2026-07-04-public-outputs/danush_95101/submission.csv'),
+    ],
+    [
+        Path('/kaggle/input/ps-s6e7-cross-family-ensemble-calibration/submission.csv'),
+        Path('external/2026-07-04-public-outputs/danush_95101/submission.csv'),
+    ],
+    [
+        Path('/kaggle/input/ps-s6e7-cross-family-ensemble-calibration/submission.csv'),
+        Path('external/2026-07-04-public-outputs/danush_95101/submission.csv'),
+    ],
+    [
+        Path('/kaggle/input/ps-s6e7-0-95095-hill-climbing-meta-modeling/submission.csv'),
+        Path('external/anhad-hill-output/submission.csv'),
+        Path('submissions/s020_anhad_hill_meta.csv'),
+    ],
+    [
+        Path('/kaggle/input/confidence-weighted-ensemble-with-score-0-95094/submission.csv'),
+        Path('external/anhad-confidence-output/submission.csv'),
+        Path('submissions/s022_anhad_confidence.csv'),
+    ],
+    [
+        Path('/kaggle/input/predicting-student-health-risk-submissions/0.95086.csv'),
+        Path('external/anhad-student-health-submissions/0.95086.csv'),
+        Path('submissions/s023_anhad_single_95086.csv'),
+    ],
+    [
+        Path('/kaggle/input/health-field-trials-pipeline-0-95/blended/external_lb_logit_multiplier_blend.csv'),
+        Path('external/2026-07-04-public-outputs/flexon_field_trials/blended/external_lb_logit_multiplier_blend.csv'),
     ]
 ]
 
