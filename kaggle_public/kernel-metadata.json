@@ -13,10 +13,9 @@
   ],
   "kernel_sources": [
     "danushkumarv/ps-s6e7-cross-family-ensemble-calibration",
-    "anhadmahajan06/ps-s6e7-0-95095-hill-climbing-meta-modeling",
+    "makthanithin/ps-s6e7-0-95095-hill-climbing-meta-modeling",
     "anhadmahajan06/confidence-weighted-ensemble-with-score-0-95094",
-    "flexonafft/health-field-trials-pipeline-0-95",
-    "biohack44/predict-health-student-fusion"
+    "flexonafft/health-field-trials-pipeline-0-95"
   ],
   "competition_sources": [
     "playground-series-s6e7"

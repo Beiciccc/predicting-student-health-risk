@@ -8,67 +8,59 @@ TARGET = "health_condition"
 ID_COL = "id"
 LABEL_ORDER = {"at-risk": 0, "fit": 1, "unhealthy": 2}
 OVERRIDES = {
-    711112: 'at-risk',
-    712568: 'at-risk',
-    730651: 'at-risk',
-    750124: 'at-risk',
-    753993: 'at-risk',
-    764134: 'at-risk',
-    849627: 'at-risk',
-    862122: 'at-risk',
-    875791: 'at-risk',
-    888460: 'at-risk',
-    890705: 'at-risk',
-    903767: 'at-risk',
-    915869: 'at-risk',
-    939441: 'at-risk',
-    940518: 'at-risk',
-    977710: 'at-risk',
-    981779: 'at-risk',
+    711112: "unhealthy",
+    712568: "unhealthy",
+    730651: "unhealthy",
+    750124: "unhealthy",
+    764134: "at-risk",
+    765328: "at-risk",
+    775888: "fit",
+    792856: "unhealthy",
+    811758: "unhealthy",
+    833839: "unhealthy",
+    849627: "at-risk",
+    862122: "unhealthy",
+    866690: "unhealthy",
+    875791: "unhealthy",
+    890705: "unhealthy",
+    903767: "unhealthy",
+    915869: "unhealthy",
+    939441: "unhealthy",
+    940518: "fit",
+    977710: "unhealthy",
+    981779: "unhealthy",
 }
 
 
 SOURCE_CANDIDATES = [
     [
-        Path('/kaggle/input/ps-s6e7-cross-family-ensemble-calibration/submission.csv'),
-        Path('external/2026-07-04-public-outputs/danush_95101/submission.csv'),
+        Path("/kaggle/input/ps-s6e7-cross-family-ensemble-calibration/submission.csv"),
+        Path("external/2026-07-04-public-outputs/danush_95101/submission.csv"),
     ],
     [
-        Path('/kaggle/input/ps-s6e7-cross-family-ensemble-calibration/submission.csv'),
-        Path('external/2026-07-04-public-outputs/danush_95101/submission.csv'),
+        Path("/kaggle/input/ps-s6e7-cross-family-ensemble-calibration/submission.csv"),
+        Path("external/2026-07-04-public-outputs/danush_95101/submission.csv"),
     ],
     [
-        Path('/kaggle/input/ps-s6e7-cross-family-ensemble-calibration/submission.csv'),
-        Path('external/2026-07-04-public-outputs/danush_95101/submission.csv'),
+        Path("/kaggle/input/ps-s6e7-cross-family-ensemble-calibration/submission.csv"),
+        Path("external/2026-07-04-public-outputs/danush_95101/submission.csv"),
     ],
     [
-        Path('/kaggle/input/ps-s6e7-cross-family-ensemble-calibration/submission.csv'),
-        Path('external/2026-07-04-public-outputs/danush_95101/submission.csv'),
+        Path("/kaggle/input/ps-s6e7-0-95095-hill-climbing-meta-modeling/submission.csv"),
+        Path("external/anhad-hill-output/submission.csv"),
     ],
     [
-        Path('/kaggle/input/ps-s6e7-0-95095-hill-climbing-meta-modeling/submission.csv'),
-        Path('external/anhad-hill-output/submission.csv'),
-        Path('submissions/s020_anhad_hill_meta.csv'),
+        Path("/kaggle/input/confidence-weighted-ensemble-with-score-0-95094/submission.csv"),
+        Path("external/anhad-confidence-output/submission.csv"),
     ],
     [
-        Path('/kaggle/input/confidence-weighted-ensemble-with-score-0-95094/submission.csv'),
-        Path('external/anhad-confidence-output/submission.csv'),
-        Path('submissions/s022_anhad_confidence.csv'),
+        Path("/kaggle/input/predicting-student-health-risk-submissions/0.95086.csv"),
+        Path("external/anhad-student-health-submissions/0.95086.csv"),
     ],
     [
-        Path('/kaggle/input/predicting-student-health-risk-submissions/0.95086.csv'),
-        Path('external/anhad-student-health-submissions/0.95086.csv'),
-        Path('submissions/s023_anhad_single_95086.csv'),
+        Path("/kaggle/input/health-field-trials-pipeline-0-95/blended/external_lb_logit_multiplier_blend.csv"),
+        Path("external/2026-07-04-public-outputs/flexon_field_trials/blended/external_lb_logit_multiplier_blend.csv"),
     ],
-    [
-        Path('/kaggle/input/health-field-trials-pipeline-0-95/blended/external_lb_logit_multiplier_blend.csv'),
-        Path('external/2026-07-04-public-outputs/flexon_field_trials/blended/external_lb_logit_multiplier_blend.csv'),
-    ],
-    [
-        Path('/kaggle/input/predict-health-student-fusion/submission.csv'),
-        Path('external/2026-07-04-public-outputs/biohack_fusion/submission.csv'),
-        Path('submissions/s064_biohack_fusion.csv'),
-    ]
 ]
 
 
@@ -103,9 +95,6 @@ def main() -> None:
     submission[TARGET] = submission[ID_COL].map(OVERRIDES).fillna(submission[TARGET])
     submission.to_csv("submission.csv", index=False)
 
-    print("Used files:")
-    for path in files:
-        print(f"- {path}")
     print(submission[TARGET].value_counts().sort_index())
 
 
