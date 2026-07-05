@@ -127,8 +127,33 @@ SOURCE_MAP = {
         "paths": [
             "/kaggle/input/health-field-trials-pipeline-0-95/blended/external_hygiene_weighted_vote.csv",
             "external/2026-07-04-public-outputs/flexon_field_trials/blended/external_hygiene_weighted_vote.csv",
+            "submissions/s065_flexon_hygiene_vote.csv",
         ],
         "kernel": "flexonafft/health-field-trials-pipeline-0-95",
+    },
+    "s064_biohack_fusion.csv": {
+        "paths": [
+            "/kaggle/input/predict-health-student-fusion/submission.csv",
+            "external/2026-07-04-public-outputs/biohack_fusion/submission.csv",
+            "submissions/s064_biohack_fusion.csv",
+        ],
+        "kernel": "biohack44/predict-health-student-fusion",
+    },
+    "s065_flexon_hygiene_vote.csv": {
+        "paths": [
+            "/kaggle/input/health-field-trials-pipeline-0-95/blended/external_hygiene_weighted_vote.csv",
+            "external/2026-07-04-public-outputs/flexon_field_trials/blended/external_hygiene_weighted_vote.csv",
+            "submissions/s065_flexon_hygiene_vote.csv",
+        ],
+        "kernel": "flexonafft/health-field-trials-pipeline-0-95",
+    },
+    "s066_ravi_stacker.csv": {
+        "paths": [
+            "/kaggle/input/playgrounds6e7-stacker-v1/submission.csv",
+            "external/2026-07-04-public-outputs/ravi_stacker/submission.csv",
+            "submissions/s066_ravi_stacker.csv",
+        ],
+        "kernel": "ravi20076/playgrounds6e7-stacker-v1",
     },
 }
 
