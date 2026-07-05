@@ -49,3 +49,4 @@ Balanced accuracy is the competition metric. Local CV is computed from out-of-fo
 | 43 | 2026-07-05 08:13:57 | 54355396 | s084_vote_s070_s073_s071 | 0.95104 |  |  | Second-level hard vote | Vote over s070, s073, and s071 reconstructed from public sources |
 | 44 | 2026-07-05 08:19:39 | 54355551 | s085_vote_s073_s070_s071_s072 | 0.95104 |  |  | Second-level hard vote | Vote over s073, s070, s071, and s072 |
 | 45 | 2026-07-05 08:21:40 | 54355592 | s086_vote_s070_s073_s071_s072_s055 | 0.95102 |  |  | Second-level hard vote | Vote over s070, s073, s071, s072, and raw Danush |
+| 46 | 2026-07-05 08:26:30 | 54355712 | s087_vote_danushx4_top3_flexon_hgbccat_score | 0.95101 |  |  | Danush-dominant hard vote | Danush x4 plus top public cluster, Flexon logit, and Flexon HGBC/CatBoost score output |
