@@ -7,6 +7,25 @@ import pandas as pd
 TARGET = "health_condition"
 ID_COL = "id"
 LABEL_ORDER = {"at-risk": 0, "fit": 1, "unhealthy": 2}
+OVERRIDES = {
+    711112: 'at-risk',
+    712568: 'at-risk',
+    730651: 'at-risk',
+    750124: 'at-risk',
+    753993: 'at-risk',
+    764134: 'at-risk',
+    849627: 'at-risk',
+    862122: 'at-risk',
+    875791: 'at-risk',
+    888460: 'at-risk',
+    890705: 'at-risk',
+    903767: 'at-risk',
+    915869: 'at-risk',
+    939441: 'at-risk',
+    940518: 'at-risk',
+    977710: 'at-risk',
+    981779: 'at-risk',
+}
 
 
 SOURCE_CANDIDATES = [
@@ -46,9 +65,9 @@ SOURCE_CANDIDATES = [
         Path('external/2026-07-04-public-outputs/flexon_field_trials/blended/external_lb_logit_multiplier_blend.csv'),
     ],
     [
-        Path('/kaggle/input/health-field-trials-pipeline-0-95/blended/external_hygiene_weighted_vote.csv'),
-        Path('external/2026-07-04-public-outputs/flexon_field_trials/blended/external_hygiene_weighted_vote.csv'),
-        Path('submissions/s065_flexon_hygiene_vote.csv'),
+        Path('/kaggle/input/predict-health-student-fusion/submission.csv'),
+        Path('external/2026-07-04-public-outputs/biohack_fusion/submission.csv'),
+        Path('submissions/s064_biohack_fusion.csv'),
     ]
 ]
 
@@ -81,6 +100,7 @@ def main() -> None:
     votes = pd.concat([frame[TARGET].astype(str) for frame in frames], axis=1)
     submission = frames[0][[ID_COL]].copy()
     submission[TARGET] = votes.apply(lambda row: choose_label(row.tolist()), axis=1)
+    submission[TARGET] = submission[ID_COL].map(OVERRIDES).fillna(submission[TARGET])
     submission.to_csv("submission.csv", index=False)
 
     print("Used files:")
