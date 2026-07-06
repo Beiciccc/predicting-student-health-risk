@@ -60,3 +60,4 @@ Balanced accuracy is the competition metric. Local CV is computed from out-of-fo
 | 54 | 2026-07-06 02:08:22 | 54379676 | s112_vote_s089_busya_s073 | 0.95106 |  |  | Second-level hard vote with prior-adjusted public stack | Busya prior-adjusted stack tie-breaker over s089 and s073 |
 | 55 | 2026-07-06 02:10:25 | 54379731 | s117_vote_s089_s084_rung9 | 0.95106 |  |  | Second-level hard vote with RealMLP/HGBC public output | Rung 9 tie-breaker over s089 and s084 |
 | 56 | 2026-07-06 02:12:37 | 54379795 | s107_vote_s089_rung9_s070 | 0.95106 |  |  | Second-level hard vote with RealMLP/HGBC public output | Rung 9 tie-breaker over s089 and s070 |
+| 57 | 2026-07-06 02:14:41 | 54379824 | s108_vote_s089_rung9_s073 | 0.95104 |  |  | Second-level hard vote with RealMLP/HGBC public output | Rung 9 tie-breaker over s089 and s073 |
