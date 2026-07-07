@@ -60,3 +60,4 @@ submitted_at_utc,submission_ref,name,public_score,local_cv,beta,method,notes
 2026-07-06 02:19:45,54379956,s100_vote_s089_s070_s073,0.95106,,,Second-level hard vote,Conservative s089 neighbor using s070 and s073 anchors
 2026-07-06 02:22:04,54380013,s091_vote_danushx5_top3_flexon_t5,0.95107,,,Danush-dominant hard vote,"Danush x5 plus top public cluster, Flexon logit, and top-5 public vote"
 2026-07-07 00:28:00,54410309,s127_amanatar_lb95112,0.95112,,,Public three-file majority vote,Amanatar public LB 0.95112 output; direct submission
+2026-07-07 00:32:48,54410432,s162_vote_s127_s093_stephen,0.95108,,,Amanatar-anchored hard vote,s127 with s093 and Stephen blending output
