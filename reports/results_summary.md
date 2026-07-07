@@ -66,3 +66,4 @@ Balanced accuracy is the competition metric. Local CV is computed from out-of-fo
 | 60 | 2026-07-06 02:22:04 | 54380013 | s091_vote_danushx5_top3_flexon_t5 | 0.95107 |  |  | Danush-dominant hard vote | Danush x5 plus top public cluster, Flexon logit, and top-5 public vote |
 | 61 | 2026-07-07 00:28:00 | 54410309 | s127_amanatar_lb95112 | 0.95112 |  |  | Public three-file majority vote | Amanatar public LB 0.95112 output; direct submission |
 | 62 | 2026-07-07 00:32:48 | 54410432 | s162_vote_s127_s093_stephen | 0.95108 |  |  | Amanatar-anchored hard vote | s127 with s093 and Stephen blending output |
+| 63 | 2026-07-07 00:35:58 | 54410505 | s177_vote_s127_s090_stephen | 0.95109 |  |  | Amanatar-anchored hard vote | s127 with s090 and Stephen blending output |
