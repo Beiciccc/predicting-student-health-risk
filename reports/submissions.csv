@@ -68,3 +68,4 @@ submitted_at_utc,submission_ref,name,public_score,local_cv,beta,method,notes
 2026-07-07 00:47:49,54410806,s148_vote_s127_s091_tabpfn,0.95113,,,Amanatar-anchored hard vote,s127 with s091 and TabPFN output
 2026-07-07 00:52:54,54410900,s191_vote_s178_s181_subzerin,0.95114,,,Independent-source tie-breaker,s178 and s181 hard vote with Subzerin CatBoost 5-fold probabilities
 2026-07-07 00:55:40,54410951,s196_vote_s178_s181_kenchan,0.95113,,,Independent-source tie-breaker,s178 and s181 hard vote with Kenchan EXP007 output
+2026-07-07 00:58:35,54411005,s192_vote_s127_s178_subzerin,0.95115,,,Independent-source tie-breaker,s127 and s178 hard vote with Subzerin CatBoost 5-fold probabilities
