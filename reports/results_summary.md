@@ -81,3 +81,4 @@ Balanced accuracy is the competition metric. Local CV is computed from out-of-fo
 | 75 | 2026-07-08 09:41:40 | 54457405 | s206_vote_s192_s178_kenchan | 0.95114 |  |  | s192-centered hard vote micro candidate | s192; s178; kenchan |
 | 76 | 2026-07-08 09:43:00 | 54457443 | s207_vote_s192_s178_s181 | 0.95114 |  |  | s192-centered hard vote micro candidate | s192; s178; s181 |
 | 77 | 2026-07-08 09:44:19 | 54457481 | s216_vote_s192_s196_s194 | 0.95115 |  |  | s192-centered hard vote micro candidate | s192; s196; s194 |
+| 78 | 2026-07-08 09:45:30 | 54457506 | s220_vote_s192_s148_s194 | 0.95115 |  |  | s192-centered hard vote micro candidate | s192; s148; s194 |
