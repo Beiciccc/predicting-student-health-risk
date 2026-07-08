@@ -76,3 +76,4 @@ Balanced accuracy is the competition metric. Local CV is computed from out-of-fo
 | 70 | 2026-07-07 00:58:35 | 54411005 | s192_vote_s127_s178_subzerin | 0.95115 |  |  | Independent-source tie-breaker | s127 and s178 hard vote with Subzerin CatBoost 5-fold probabilities |
 | 71 | 2026-07-08 09:32:48 | 54457148 | s201_vote_s178_s181_s127 | 0.95114 |  |  | top submission hard vote micro candidate | s178/s181/s127 conservative 8-row probe |
 | 72 | 2026-07-08 09:33:51 | 54457163 | s210_vote_s192_s181_s127 | 0.95115 |  |  | s192-centered hard vote micro candidate | s192 with s181 and s127 one-row boundary test |
+| 73 | 2026-07-08 09:37:46 | 54457279 | s214_vote_s192_s196_subzerin | 0.95115 |  |  | s192-centered hard vote micro candidate | s192 with s196 and Subzerin direct output |
