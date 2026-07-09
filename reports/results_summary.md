@@ -89,3 +89,4 @@ Balanced accuracy is the competition metric. Local CV is computed from out-of-fo
 | 83 | 2026-07-09 04:36:39 | 54482166 | s225_vote_s192_s194_s205 | 0.95115 |  |  | public-anchor hard vote boundary probe | s225_vote_s192_s194_s205 low-delta public anchor tie-breaker |
 | 84 | 2026-07-09 04:40:24 | 54482243 | s226_vote_s192_s200_subzerin | 0.95115 |  |  | public-anchor hard vote boundary probe | s226_vote_s192_s200_subzerin low-delta public anchor tie-breaker |
 | 85 | 2026-07-09 04:43:07 | 54482298 | s230_vote_s194_s217_ichiro | 0.95115 |  |  | public-anchor hard vote boundary probe | s230_vote_s194_s217_ichiro low-delta public anchor tie-breaker |
+| 86 | 2026-07-09 04:45:09 | 54482339 | s245_vote_s208_s220_roman | 0.95115 |  |  | public-anchor hard vote boundary probe | s245_vote_s208_s220_roman low-delta public anchor tie-breaker |
