@@ -98,3 +98,4 @@ submitted_at_utc,submission_ref,name,public_score,local_cv,beta,method,notes
 2026-07-10 03:13:35,54514015,s253_vote_s220_s237_tgmath,0.95115,,,TGMATH-guided hard vote boundary probe,s220 and s237 with public score-weighted hard-vote tie-breaker; 4-row delta
 2026-07-10 03:16:22,54514073,s254_vote_s192_s226_tgmath,0.95115,,,TGMATH-guided hard vote boundary probe,s192 and s226 with public score-weighted hard-vote tie-breaker; 5-row delta
 2026-07-10 03:19:09,54514120,s255_vote_s192_s240_tgmath,0.95115,,,TGMATH-guided hard vote boundary probe,s192 and s240 with public score-weighted hard-vote tie-breaker; 5-row delta
+2026-07-10 03:21:16,54514176,s256_vote_s208_s240_tgmath,0.95115,,,TGMATH-guided hard vote boundary probe,s208 and s240 with public score-weighted hard-vote tie-breaker; 5-row delta
