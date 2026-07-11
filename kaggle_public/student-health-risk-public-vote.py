@@ -32,7 +32,7 @@ OVERRIDES = {
     776502: "at-risk",
     777480: "at-risk",
     777587: "at-risk",
-    781794: "fit",
+    781794: "at-risk",
     782055: "at-risk",
     785839: "at-risk",
     790694: "at-risk",
@@ -66,7 +66,7 @@ OVERRIDES = {
     889660: "at-risk",
     890778: "at-risk",
     891288: "fit",
-    892048: "fit",
+    892048: "at-risk",
     895225: "at-risk",
     896383: "at-risk",
     896800: "at-risk",
@@ -106,7 +106,7 @@ OVERRIDES = {
     789622: "at-risk",
     801832: "at-risk",
     806969: "at-risk",
-    811758: "unhealthy",
+    811758: "at-risk",
     814970: "at-risk",
     825099: "at-risk",
     836094: "at-risk",
@@ -122,6 +122,11 @@ OVERRIDES = {
     846737: "unhealthy",
     895750: "unhealthy",
     980025: "unhealthy",
+    694344: "at-risk",
+    722217: "fit",
+    741707: "fit",
+    793885: "at-risk",
+    819712: "at-risk",
 }
 
 SOURCE_CANDIDATES = [
