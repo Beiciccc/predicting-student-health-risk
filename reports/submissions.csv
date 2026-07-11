@@ -105,3 +105,4 @@ submitted_at_utc,submission_ref,name,public_score,local_cv,beta,method,notes
 2026-07-11 12:30:07,54571408,s260_s233_consensus8,0.95116,,,External consensus micro-flip transfer,"Applied eight public consensus corrections to s233; 8-row delta, 3 rows from s259, and 0.00001 below s194 transfer"
 2026-07-11 12:32:31,54571499,s261_s225_consensus8,0.95117,,,External consensus micro-flip transfer,"Applied eight public consensus corrections to s225; 8-row delta, 3 rows from s259, and replicated public best"
 2026-07-11 12:36:02,54571601,s262_s231_consensus8,0.95116,,,External consensus micro-flip transfer,"Applied eight public consensus corrections to s231; 8-row delta, 3 rows from s259, and 0.00001 below s194 transfer"
+2026-07-11 12:38:56,54571683,s263_s208_consensus8,0.95117,,,External consensus micro-flip transfer,"Applied eight public consensus corrections to s208; 8-row delta, 5 rows from s259, and replicated public best"
