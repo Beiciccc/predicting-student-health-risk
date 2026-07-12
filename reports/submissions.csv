@@ -112,3 +112,4 @@ submitted_at_utc,submission_ref,name,public_score,local_cv,beta,method,notes
 2026-07-12 03:51:23,54594018,s267_top5_jeff_vote,0.95117,,,Five-source public-anchor majority vote,"Majority vote across s261, s263, s260, s265, and Jeff public LightGBM output; one-row delta from s261 and tied public best"
 2026-07-12 03:53:31,54594066,s268_top3_s264_jeff_vote,0.95117,,,Five-source public-anchor majority vote,"Majority vote across s259, s261, s263, s264, and Jeff public LightGBM output; one-row delta from s259 and tied public best"
 2026-07-12 03:57:50,54594130,s269_top4_s266_vote,0.95117,,,Five-anchor majority vote,Majority vote across four 0.95117 anchors and s266; one-row delta from s261 and tied public best
+2026-07-12 04:00:14,54594170,s270_top3_s260_s266_vote,0.95117,,,Five-anchor majority vote,Majority vote across three 0.95117 anchors and two 0.95116 anchors; one-row delta from s267 and tied public best
