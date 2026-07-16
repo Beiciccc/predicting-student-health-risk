@@ -9,7 +9,7 @@ ID_COL = "id"
 LABEL_ORDER = {"at-risk": 0, "fit": 1, "unhealthy": 2}
 OVERRIDES = {
     690472: "at-risk",
-    690753: "at-risk",
+    690753: "fit",
     694344: "at-risk",
     698943: "unhealthy",
     702714: "at-risk",
@@ -94,7 +94,7 @@ OVERRIDES = {
     898458: "at-risk",
     903767: "at-risk",
     903930: "at-risk",
-    908824: "unhealthy",
+    908824: "fit",
     922125: "at-risk",
     926657: "at-risk",
     930217: "unhealthy",
@@ -112,7 +112,7 @@ OVERRIDES = {
     965669: "unhealthy",
     967639: "at-risk",
     968206: "at-risk",
-    968747: "unhealthy",
+    968747: "fit",
     969163: "at-risk",
     970158: "at-risk",
     972394: "at-risk",
@@ -140,11 +140,11 @@ OVERRIDES = {
     950327: "at-risk",
     979493: "at-risk",
     983916: "at-risk",
-    690179: "unhealthy",
-    736819: "fit",
-    832803: "unhealthy",
-    965287: "fit",
-    977425: "unhealthy",
+    690179: "fit",
+    736819: "at-risk",
+    832803: "at-risk",
+    965287: "at-risk",
+    977425: "at-risk",
     775083: "fit",
     799109: "fit",
     920406: "fit",
@@ -160,6 +160,7 @@ OVERRIDES = {
     936829: "fit",
     947779: "fit",
     733197: "fit",
+    862562: "unhealthy",
 }
 
 SOURCE_CANDIDATES = [
