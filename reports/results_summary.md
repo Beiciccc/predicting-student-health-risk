@@ -192,3 +192,4 @@ Balanced accuracy is the competition metric. Local CV is computed from out-of-fo
 | 186 | 2026-07-19 01:33:21 | 54819624 | s342_incumbent_oof_819218 | 0.95245 |  |  | Dual-model OOF boundary correction | s336_incumbent_dual_oof_891394 plus ID819218 at-risk->fit; regression, anchor retained |
 | 187 | 2026-07-19 01:35:09 | 54819636 | s343_incumbent_oof_921756 | 0.95246 |  |  | Dual-model OOF boundary correction | s336_incumbent_dual_oof_891394 plus ID921756 at-risk->unhealthy; tie, anchor retained |
 | 188 | 2026-07-19 01:36:36 | 54819660 | s344_incumbent_oof_692753 | 0.95246 |  |  | Dual-model OOF boundary correction | s336_incumbent_dual_oof_891394 plus ID692753 unhealthy->fit; tie, anchor retained |
+| 189 | 2026-07-19 01:38:05 | 54819673 | s345_incumbent_oof_807652 | 0.95246 |  |  | Dual-model OOF boundary correction | s336_incumbent_dual_oof_891394 plus ID807652 fit->unhealthy; tie, anchor retained |
