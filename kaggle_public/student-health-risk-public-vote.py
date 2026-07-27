@@ -388,7 +388,15 @@ OVERRIDES = {
     820839: "at-risk",
     701976: "at-risk",
     902307: "at-risk",
-    813878: "unhealthy",
+    813878: "at-risk",
+    817401: "at-risk",
+    925312: "at-risk",
+    720864: "fit",
+    810179: "fit",
+    853509: "unhealthy",
+    903930: "fit",
+    942726: "unhealthy",
+    968206: "unhealthy",
 }
 
 SOURCE_CANDIDATES = [
