@@ -390,7 +390,7 @@ OVERRIDES = {
     902307: "at-risk",
     813878: "at-risk",
     817401: "at-risk",
-    925312: "at-risk",
+    925312: "unhealthy",
     720864: "fit",
     810179: "fit",
     853509: "unhealthy",
