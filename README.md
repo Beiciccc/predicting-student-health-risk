@@ -4,6 +4,19 @@ This repository contains code and experiment notes for Kaggle Playground Series 
 
 Competition: https://www.kaggle.com/competitions/playground-series-s6e7
 
+## Final Standing
+
+The competition finished on 2026-07-31 at 23:59 UTC.
+
+- Final private leaderboard: **367 of 3,356** (top 10.94%), score **0.95029**
+- Public leaderboard: **89 of 3,356** (top 2.65%), score **0.95289**
+- Rank change after the private leaderboard reveal: **-278 places**
+- Official submissions: **295**
+- Final scoring submission: `s448_fit_965778`, ref `55123520`
+- Best retrospective private score across all submissions: **0.95048** from `s017_vote_public_no3`
+
+See [reports/final_results.md](reports/final_results.md) for the full post-competition analysis.
+
 ## Task
 
 Predict the `health_condition` label for each student:
@@ -47,6 +60,7 @@ python scripts/make_submission.py --runs runs/xgb_te_seed42_f5 --name xgb_te_see
 ## Results
 
 Experiment outcomes are tracked in [reports/results_summary.md](reports/results_summary.md).
+Official public/private score pairs are available in [reports/final_scores.csv](reports/final_scores.csv).
 
 ## Public Code
 

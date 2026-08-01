@@ -2,6 +2,8 @@
 
 Balanced accuracy is the competition metric. Local CV is computed from out-of-fold predictions.
 
+The competition is complete. The final private leaderboard result was rank **367 of 3,356** with a score of **0.95029**; the public leaderboard result was rank **89** with a score of **0.95289**. See [final_results.md](final_results.md) for the post-competition analysis and [final_scores.csv](final_scores.csv) for all official public/private score pairs.
+
 | # | Submitted (UTC) | Ref | Name | Public score | Local CV | Beta | Method | Notes |
 |---:|---|---|---|---:|---:|---:|---|---|
 | 1 | 2026-07-01 04:01:18 | 54220164 | s001_xgb_te_beta106 | 0.94992 | 0.949800 | 1.0600 | XGBoost target encoding, prior beta 1.06 | First calibrated XGBoost target-encoding run |
